@@ -26,6 +26,10 @@ main p, main input, main button {
   text-align: left;
 }
 
+main input {
+  color: #0a0a0a;
+}
+
 form, #gifs {
   width: 80%;
   margin: 0 auto;
