@@ -1,0 +1,36 @@
+@font-face {
+  font-family: PressStart2P;
+  src: url(PressStart2P.ttf);
+}
+
+body {
+  font-family: PressStart2P;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main p, main input, main button {
+  font-size: 14px;
+  line-height: 200%;
+  text-align: left;
+}
+
+main input, main button {
+  width: 80%;
+  text-align: center;
+}
+
+#monster {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
