@@ -7,6 +7,7 @@ body {
   font-family: PressStart2P;
   background-color: #0a0a0a;
   color: white;
+  letter-spacing: 1px;
 }
 
 main {
@@ -25,8 +26,9 @@ main p, main input, main button {
   text-align: left;
 }
 
-main input, main button {
+form, #gifs {
   width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 
